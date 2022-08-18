@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>Module 16</title>
+
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="../scripts/jquery-1.8.2.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../../fancyboxjquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$("a#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+		
+		});
+	</script>
+
+
+</head>
+
+<body>
+<div id="wrapper"><!-- Begin wrapper -->
+  
+  <div id="header"><!-- Begin header --> 
+    <img src="../images/logo.png" alt="" width="545" height="150" />
+
+  </div>
+  <div id="main"><!-- Begin main -->
+    
+
+    <p id="module"><span>Module 16</span></p>
+ 
+        <h2 class="essential_element">Essential Element:  Part III</h2>
+    
+      <div class="content">
+        <h2 class="title">The Judgement of Paris</h2>
+        <p>Paris (also known as Alexander) is a great beauty, and rather a weakling. He is the son of the Trojan king Priam and Hecuba. Paris&rsquo; brother is the great Trojan warrior Hector, whom Achilles will eventually kill near the end of the war. It is important to note that Paris&rsquo; relationship is no mere human affair, and that there is also a divine cause behind the war. The origins of the Trojan war lie in the famous myth known as The Judgment of Paris. The story has it that at the wedding feast of Peleus and Thetis, the parents of the great Greek hero Achilles, Eris, the goddess of strife (who is angry because she had not been invited) throws a golden apple onto the table, on which was written &lsquo;for the most beautiful&rsquo;. What ensues was a fight between Athena, Hera and Aphrodite, who all claim that they were the most beautiful. Zeus decides that the argument is to be decided by Paris, a mortal prince who had been exposed as a child, because he mother Hecuba had dreamt that he would be the downfall of Troy<strong> </strong>(for this motif we can think back once again to the story of Oedipus – Paris does, of course, in one sense bring about the destruction of Troy, despite his mother&rsquo;s efforts). Paris had lived, however, because he was suckled by a bear on Mt. Ida, where he grew up with a shepherd. It was there that he settles the contest between the three goddesses. Naturally, none of the goddesses is content just to let him decide, and they all offer him bribes. Hera promises him royal power, Athena offers him victory in war, and Aphrodite offers him the most beautiful woman, Helen. Paris of course chooses Helen, and so the Trojan war was set to begin.</p>
+</div>
+    
+
+    <!--END OF WHITESPACE -->
+    <div class="clear"></div>
+  </div>
+  <!-- End main -->
+  <div class="clear"></div>
+  <div id="footer">
+    <img src="../images/uwaterloo.png" alt="" width="150" height="32" />
+  </div>
+</div>
+<!-- End wrapper -->
+
+</body>
+
+
+
+
+</html>
+

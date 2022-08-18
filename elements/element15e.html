@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>Module 15</title>
+
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="../scripts/jquery-1.8.2.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../../fancyboxjquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$("a#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+		
+		});
+	</script>
+
+
+</head>
+
+<body>
+<div id="wrapper"><!-- Begin wrapper -->
+  
+  <div id="header"><!-- Begin header --> 
+    <img src="../images/logo.png" alt="" width="545" height="150" />
+
+  </div>
+  <div id="main"><!-- Begin main -->
+    
+
+    <p id="module"><span>Module 15</span></p>
+ 
+        <h2 class="essential_element">Essential Element:  Part V</h2>
+    
+      <div class="content">
+        <h2 class="title">Agamemnon's Return Home</h2>
+        <p>   Agamemnon’s return home after the Trojan War and his subsequent downfall at the hands of his wife are famously presented in a trilogy of plays by the Athenian playwright Aeschylus, in the fifth century BC. Furious at her husbands actions, Clytemnestra has plotted with the one remaining son of Thyestes, named Aegisthus, to murder Agamemnon upon his return home. She welcomes Agamemnon kindly at first, but then kills him together with Aegisthus when <a rel="example_group" title="Pierre Guerin, Clytemnestra Hesitating to Strike Agamemnon in His Sleep, Her Accomplice, Presses Her, 1817. Museee de Louvre, Paris, France. Erich Lessing Culture and Fine Arts Archives / ART RESOURCE, N.Y.."a href="../images/module15/large/Image2.jpg"><img src="../images/module15/thumbs/image2_mod15.jpg" alt="" width="130" height="90" /></a>Agamemnon is in the bath, by throwing a net over him and stabbing him, or in some other versions at a banquet <strong>(see image 1)</strong>. Agamemnon has also angered Clytemnestra by bringing home with him from the war as a concubine the Trojan prophetess Cassandra, whom Clytemnestra also kills (<strong>see image 2</strong>). The question of culpability and blame is a complicated one in this myth—on the one hand, Clytemnestra acts cruelly in killing her husband, <a rel="example_group" title="Kylix with Clytemnestra killing Cassandra, c. 5th century B.C.E. Museo Archeologico Nazionale (Ferrara, Italy). &copy; 2006, SCALA, Florence / ART RESOURCE, N.Y.." a href="../images/module15/large/Image3.jpg"><img src="../images/module15/thumbs/image3_mod15.jpg" alt="" width="130" height="90" class="alignright" /></a>but is her reaction not also understandable given the actions of her husband in killing their daughter? The curse of previous generations is also physically present in the myth, as the son of Thyestes, Aegisthus, helps Clytemnestra to exact revenge on the son of Atreus, Agamemnon. On the other hand, is Agamemnon entirely culpable? The decision to sacrifice his daughter, or face shame in front of the Greeks, was a demand of the goddess Artemis and one must reflect on the role of divine will and the curse on the actions of all characters involved.</p>
+</div>
+    
+
+    <!--END OF WHITESPACE -->
+    <div class="clear"></div>
+  </div>
+  <!-- End main -->
+  <div class="clear"></div>
+  <div id="footer">
+    <img src="../images/uwaterloo.png" alt="" width="150" height="32" />
+  </div>
+</div>
+<!-- End wrapper -->
+
+</body>
+
+
+
+
+</html>
+

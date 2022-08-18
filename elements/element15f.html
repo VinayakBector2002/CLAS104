@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>Module 15</title>
+
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="../scripts/jquery-1.8.2.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../../fancyboxjquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$("a#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+		
+		});
+	</script>
+
+
+</head>
+
+<body>
+<div id="wrapper"><!-- Begin wrapper -->
+  
+  <div id="header"><!-- Begin header --> 
+    <img src="../images/logo.png" alt="" width="545" height="150" />
+
+  </div>
+  <div id="main"><!-- Begin main -->
+    
+
+    <p id="module"><span>Module 15</span></p>
+ 
+        <h2 class="essential_element">Essential Element:  Part VI</h2>
+    
+      <div class="content">
+        <h2 class="title">Orestes and Electra</h2>
+        <p>Clytemnestra and Aegisthus, after the murder of Agamemnon, gain control of the throne of Mycenae (another switch in power that can be traced back to the original struggle of Atreus and Thyestes). However, Agaememnon’s son Orestes was away during the murder and, learning of his father’s fate, returns to Mycenae to take revenge. With the help of his sister Electra, he enters the palace and murders both Aegisthus and his own mother Clytemnestra <strong>(see image 1)</strong><a href="../images/module15/large/Image4.jpg" title="Orestes killing Aigisthos, c. 500 B.C.E. Musee de Louvre, Paris, France. Erich Lessing Culture and Fine Arts Archives / ART RESOURCE, N.Y.." a rel="example_group"><img src="../images/module15/thumbs/image4_mod15.jpg" alt="" width="130" height="90" /></a>.  The cycle of family revenge therefore continues, as does the complicated nature of bringing judgment on the justice of Orestes’ actions—matricide is a terrible prospect, but Orestes at the same time avenges the honour of his cuckolded father. In Aeschylus version of the myth, this question eventually comes before the law courts of Athens. Upon killing his mother Orestes is pursued by the Furies, who avenge parricide. Only he can see the grotesque divine beings, at which point he flees, first seeking purification at the temple of Apollo in Delphi <strong>(see image 2)</strong>.<a href="../images/module15/large/Image5.jpg" title="Apollo Purifies Orestes with the Blood of a Piglet, 380-370 B.C.E. Musee du Louvre, Paris, France. Erich Lessing Culture and Fine Arts Archives / ART RESOURCE, N.Y.." a rel="example_group"><img src="../images/module15/thumbs/image5_mod15.jpg" alt="" width="130" height="90" class="alignright" /></a>In some versions of the myth, such purification does exculpate him from his guilt. Aeschylus’ version, in which the goddess Athena eventually grants absolution to Orestes by casting the final vote when the mortal Athenian jury is deadlocked, instead explores the role of the fifth-century Athenian courts in justice alongside divine punishment and absolution. Electra also becomes a major character in later fifth-century tragedy, with two plays written about her by the playwrights Sophocles and Euripides.</p>
+</div>
+    
+
+    <!--END OF WHITESPACE -->
+    <div class="clear"></div>
+  </div>
+  <!-- End main -->
+  <div class="clear"></div>
+  <div id="footer">
+    <img src="../images/uwaterloo.png" alt="" width="150" height="32" />
+  </div>
+</div>
+<!-- End wrapper -->
+
+</body>
+
+
+
+
+</html>
+

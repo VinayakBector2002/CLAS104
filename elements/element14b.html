@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>Module 14</title>
+
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="../scripts/jquery-1.8.2.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../../fancyboxjquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$("a#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+		
+		});
+	</script>
+
+
+</head>
+
+<body>
+<div id="wrapper"><!-- Begin wrapper -->
+  
+  <div id="header"><!-- Begin header --> 
+    <img src="../images/logo.png" alt="" width="545" height="150" />
+
+  </div>
+  <div id="main"><!-- Begin main -->
+    
+
+    <p id="module"><span>Module 14</span></p>
+ 
+        <h2 class="essential_element">Essential Element:  Part II</h2>
+    
+      <div class="content">
+        <h2 class="title">Foundation of Thebes</h2>
+        <p>The Greek city of <a href="https://maps.google.ca/maps?q=thebes&amp;oe=utf-8&amp;aq=t&amp;client=firefox-a&amp;ie=UTF8&amp;hl=en&amp;hq=&amp;hnear=Thebes,+Viotia,+Greece&amp;ll=38.256368,23.048854&amp;spn=0.611522,1.110992&amp;t=m&amp;z=10&amp;output=embed&quot;&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;small&gt;&lt;a href=&quot;https://maps.google.ca/maps?q=thebes&amp;oe=utf-8&amp;aq=t&amp;client=firefox-a&amp;ie=UTF8&amp;hl=en&amp;hq=&amp;hnear=Thebes,+Viotia,+Greece&amp;ll=38.256368,23.048854&amp;spn=0.611522,1.110992&amp;t=m&amp;z=10&amp;source=embed&quot; style=&quot;color:#0000FF;text-align:left&quot;&gt;View Larger Map&lt;/a&gt;&lt;/small&gt;" id="various3"> Thebes</a> is located in Boeotia, to the northwest of Athens. We have already looked at the myth of Europa, whom Zeus abducts from the Near East in the form of bull and takes off to Crete. Thebes is founded by Europa’s brother, Cadmus, who is sent in search of his sister by his father. He went to Delphi to seek the advice of the oracle of Apollo which told him to forget about Europa but to follow a bull and, wherever it should lie down, to found a city. The cow lead him to Boeotia, where he founded Cadmeia which later became Thebes. When Cadmus arrives at the location of Thebes, however, he has to sacrifice the cow. In order to <a rel="example_group" a href="../images/module14/large/Image1.jpg" title="Python Painter, Calyx Krater with the Story of Cadmus, detail. Musee de Louvre, Paris, France. Erich Lessing Culture and Fine Arts Archive/ART RESOURCE, N.Y.."><img src="../images/module14/thumbs/image1_mod14.jpg" alt="Python Painter" width="130" height="90" class="alignright" /></a>do so, he tries to draw water from a spring in the vicinity, but a snake of Ares guards the water. The snake kills many of Cadmus’ men, but Cadmus eventually defeats the beast (<strong>see image 1</strong>). Athena advises him to sow the teeth of the serpent into the ground. When he does so, armed men (called Spartoi) grow up out of the earth and fight each other until only 5 are left. From these, the myth says, were descended the Thebans. Cadmus is eventually given Harmonia, the daughter of Ares and Aphrodite as a bride. Cadmus and Harmonia have four daughters - Ino, Semele, Agave and Autonoe.</p>
+        <p> This myth links the origins of Thebes to the Near East, through its foundation by Cadmus, but also to native Greek soil, through the birth of Theban forefathers also from the soil, an allegory perhaps for historical immigration, strife, and cultural mixing. We have already seen that the killing of a snake is a motif in foundation myths, such as in the foundation of Delphi by Apollo, and we will encounter the motif of sowing teeth into the earth again in the journey of Jason and the Argonauts.</p>
+    </div>
+    
+
+    <!--END OF WHITESPACE -->
+    <div class="clear"></div>
+  </div>
+  <!-- End main -->
+  <div class="clear"></div>
+  <div id="footer">
+    <img src="../images/uwaterloo.png" alt="" width="150" height="32" />
+  </div>
+</div>
+<!-- End wrapper -->
+
+</body>
+
+
+
+
+</html>
+

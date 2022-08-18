@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>Module 22</title>
+
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="../scripts/jquery-1.8.2.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../../fancyboxjquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$("a#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+		
+		});
+	</script>
+
+s
+</head>
+
+<body>
+<div id="wrapper"><!-- Begin wrapper -->
+  
+  <div id="header"><!-- Begin header --> 
+    <img src="../images/logo.png" alt="" width="545" height="150" />
+
+  </div>
+  <div id="main"><!-- Begin main -->
+    
+
+    <p id="module"><span>Module 22</span></p>
+ 
+        <h2 class="essential_element">Essential Element:  Part IV</h2>
+    
+      <div class="content">
+        <h2 class="title">War at Latium</h2>
+       
+          <p>After Aeneas leaves Carthage he goes back to Sicily briefly before going to Cumae (where he enters the underworld and meets his father Anchises: we have considered his descent into the underworld already in the Essential Element on death and the afterlife) and then to <a id="various3" a href="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d764039.3389862082!2d12.917866!3d41.5794445!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1398102481367">Latium</a>. He there meets king Latinus, who gives him his daughter Lavinia in marriage. She had originally been betrothed to Turnus, the prince of a tribe called the Rutuli, but the oracle of Faunus advises Latinus to give Lavinia to a foreigner. Juno, however, sends one of the Furies to anger Turnus, who opposes the union and starts a war. Led by Turnus, the Latins fight against the Trojans, who are helped by the Etruscans, another tribe in Italy. In the end, Aeneas defeats Turnus in individual combat. Aeneas then marries Lavinia and founds the city of Lavinium. He dies three years later in another battle and becomes a god. Such a myth undoubtedly reflects upon the struggles and alliances of colonization, however removed from historical reality.          
+</p>
+      </div>
+    
+ 
+  </div>
+  <!-- End main -->
+  <div class="clear"></div>
+  <div id="footer">
+    <img src="../images/uwaterloo.png" alt="" width="150" height="32" />
+  </div>
+</div>
+<!-- End wrapper -->
+
+</body>
+
+
+
+
+</html>
+

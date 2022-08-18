@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>Module 14</title>
+
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="../scripts/jquery-1.8.2.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../../fancyboxjquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$("a#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+		
+		});
+	</script>
+
+
+</head>
+
+<body>
+<div id="wrapper"><!-- Begin wrapper -->
+  
+  <div id="header"><!-- Begin header --> 
+    <img src="../images/logo.png" alt="" width="545" height="150" />
+
+  </div>
+  <div id="main"><!-- Begin main -->
+    
+
+    <p id="module"><span>Module 14</span></p>
+ 
+        <h2 class="essential_element">Essential Element:  Part III</h2>
+    
+      <div class="content">
+        <h2 class="title">Oedipus</h2>
+        <p>A central figure in the Theban saga is Oedipus, one of the most well known figures from Classical myth. Pentheus (whom we encountered already in the myth of Dionysus’ visit to Thebes), the grandson of Cadmus, is the next king of Thebes. When he died at the hands of his mother Agave, Labdacus became king, who also died because of his disregard for Dionysus. His son was Laius, the father of Oedipus. Laius, however, was an infant when Labdacus died and therefore Lycus, a great-great-uncle of Laius became king for twenty years. After various family intrigues, Laius eventually returns from exile in <a id="various3" a href="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Elis,+Amaliada,+Greece&amp;aq=1&amp;oq=Elis+&amp;sll=38.24573,23.248444&amp;sspn=0.611522,1.110992&amp;g=thebes&amp;ie=UTF8&amp;hq=Elis,&amp;hnear=Amaliada,+Ilia,+Greece&amp;t=m&amp;z=11&amp;iwloc=A&amp;output=embed">Elis</a>, where he had been taken in by Pelops (whom we will encounter in the Mycenaean saga). However, Laius cursed his lineage by abducting Pelops’ son Chrysippus, with whom he was in love. Laius learned of the curse from the oracle of Apollo which told him that he was destined to be killed by his son.</p>
+        <p>            Laius and his wife Jocasta have a son which they expose on <a id="various3"a href="https://maps.google.ca/maps?q=Mt.+Cithaeron,+Greece&amp;oe=utf-8&amp;aq=t&amp;client=firefox-a&amp;hl=en&amp;ie=UTF8&amp;hq=&amp;hnear=Kithairon&amp;t=m&amp;z=12&amp;iwloc=A&amp;output=embed">Mt. Cithaeron</a>, having pierced his ankles so that he could not walk. The exposure of unwanted children is a common motif in Classical mythology, as the salvation and raising of exposed children by shepherds or animals (one thinks of the more modern Jungle Book by Kipling). A servant was made to take the baby to the mountains, but he pitied Oedipus and gave him to a Corinthian shepherd, who brought Oedipus back to the rulers of <a id="various3" a href="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Ancient+Corinth,+Corinthia,+Greece&amp;aq=0&amp;oq=Ancient+&amp;sll=37.911701,22.913532&amp;sspn=0.076791,0.138874&amp;ie=UTF8&amp;hq=&amp;hnear=Ancient+Corinth,+Corinthia,+Greece&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed">Corinth</a> Polybus and Merope. They named him Oedipus (which in Greek means swell-foot) and brought him up as their son. However, when grown, Oedipus is made to suspect that he is not their real son, having been taunted by another. He goes to Delphi to learn the truth and is told that he is destined to murder his father and lie in bed with his mother. For this reason he does not return to Corinth but goes onto Thebes; where he unwittingly fulfils the prophecy. On his way there, he was blocked by a man, Laius - in anger Oedipus slew him. Try as he did, Laius could not avoid the fate prophesied at Delphi.</p>
+    </div>
+    
+
+    <!--END OF WHITESPACE -->
+    <div class="clear"></div>
+  </div>
+  <!-- End main -->
+  <div class="clear"></div>
+  <div id="footer">
+    <img src="../images/uwaterloo.png" alt="" width="150" height="32" />
+  </div>
+</div>
+<!-- End wrapper -->
+
+</body>
+
+
+
+
+</html>
+

@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>Module 20</title>
+
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="../scripts/jquery-1.8.2.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../../fancyboxjquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$("a#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+		
+		});
+	</script>
+
+s
+</head>
+
+<body>
+<div id="wrapper"><!-- Begin wrapper -->
+  
+  <div id="header"><!-- Begin header --> 
+    <img src="../images/logo.png" alt="" width="545" height="150" />
+
+  </div>
+  <div id="main"><!-- Begin main -->
+    
+
+    <p id="module"><span>Module 20</span></p>
+ 
+        <h2 class="essential_element">Essential Element:  Part II</h2>
+    
+      <div class="content">
+        <h2 class="title">Birth</h2>
+        <p>Heracles is the son of Zeus and the mortal woman Alcmena. The mortal husband of Alcemna, Amphitryon, is sometimes referred to as the father of Heracles, but it is Zeus who actually sires Heracles with Alcmena in her husband&rsquo;s absence. Zeus, ever the insatiable lover, came to Alcmena in the disguise of her husband and therefore tricked her into sleeping with him. Alcmena in fact gives birth to twins, Heracles and his brother Iphicles. From his very birth, Heracles is a precocious child able to undertake feats uncharacteristic (even impossible) for a baby. In this respect, his young exploits recall those of precocious gods such as Hermes. In fact, Heracles is such a powerful young man that from his birth he promises to be a great ruler among men. According to Homer, Zeus proclaims on the day that Heracles is to be born that &lsquo;Eileithyia, helper in childbirth, will [today] bring to the light a man who shall rule over all that dwell around him; he shall be of the race that is of my blood.&rsquo; </p>
+        <p>This boasting of his father causes problems for Heracles. For Hera, jealous as always of Zeus&rsquo; love-affairs, plays a trick to undermine Zeus&rsquo; boast. She speeds up the birth of the wife of the mortal Sthenelus (Alcmena&rsquo;s uncle) and delays the birth of Heracles and Iphicles. Thus, according to Zeus&rsquo; statement (which in the mouth of Zeus serves as a binding prophecy) Sthenelus᾽ son Eurystheus becomes the one who rules all that dwell around him. Heracles thus has to serve Eurystheus, and it is for him that he must later in life complete his 12 labours. Another version of Hera&rsquo;s anger has the goddess send a pair of snakes to kill Heracles just after he<a rel="example_group" title="Stamnos: Young Kerakles with Serpents, c.500-475 B.C.E.. Musee du Louvre. ARTstor Slide Gallery, University of California, San Diego." a href="../images/module20/large/Image2.jpg"><img src="../images/module20/thumbs/image2_mod20.jpg" alt="" width="130" height="90" class="alignright" /></a> is born. Heracles, however, is up to this challenge, even as an infant, and strangles the snakes as they attack him <strong>(see image 1)</strong>. Yet another story has Hera make Heracles go mad later in life. In a rage, Heracles kills his first wife Megara and their children. Once sane, he is purified by and advised by the Oracle of Delphi to go to Tiryns and serve Eurystheus there for 12 years, completing any labours he should propose. </p>
+    </div>
+    
+ 
+  </div>
+  <!-- End main -->
+  <div class="clear"></div>
+  <div id="footer">
+    <img src="../images/uwaterloo.png" alt="" width="150" height="32" />
+  </div>
+</div>
+<!-- End wrapper -->
+
+</body>
+
+
+
+
+</html>
+

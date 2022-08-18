@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>Module 22</title>
+
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="../scripts/jquery-1.8.2.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../../fancyboxjquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$("a#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+		
+		});
+	</script>
+
+s
+</head>
+
+<body>
+<div id="wrapper"><!-- Begin wrapper -->
+  
+  <div id="header"><!-- Begin header --> 
+    <img src="../images/logo.png" alt="" width="545" height="150" />
+
+  </div>
+  <div id="main"><!-- Begin main -->
+    
+
+    <p id="module"><span>Module 22</span></p>
+ 
+        <h2 class="essential_element">Essential Element:  Part I</h2>
+    
+      <div class="content">
+        <h2 class="title">The Foundation of Rome&mdash;the Aeneid</h2>
+        <p>We have thus far in the course frequently encountered Roman authors such as Ovid narrating their own innovative and adapted versions of originally Greek myths. Indeed, without calling into question the innovation and skill of Roman authors and artists, it is undeniable that Greek myth had a profound impact on the myths of the Romans, such that it is fully justifiable to speak inclusively of Greco-Roman mythology as we have done. There did exist independent conceptions of Italian gods, both those equated with Greek gods (such as Jupiter/Zeus) and those peculiar to Roman religion (such as the two-faced Janus named first in Roman prayers). There were also independent Roman myths, although these often became intertwined with the stories of Greek mythology in prominent versions of myth from the first century B.C.E. onward.</p>
+        <p> The story of the foundation of Rome is an excellent example of the blending of Greek and Roman mythology, as it both draws upon Greek myth and at the same time is peculiarly Roman. In Homer’s <em>Iliad</em> (book 20), Aeneas is said by Poseidon to be fated to escape from Troy when it is sacked and to become the ruler of the Trojans, and already in the fifth century B.C.E. Greek historians connected Aeneas with Italy. Early Romans too looked back to Greek mythology to identify the Trojan warrior Aeneas as the forefather of the Roman. It was, however, the Roman poet Vergil, who in the first century B.C.E. most developed the myth of Aeneas’ journey from Troy to Italy, his battles and integration with local peoples, and his foundation of sites where Rome would eventually stand. Vergil’s version of the myth was written as a Roman national epic at the outset of the reign of the first Roman emperor Augustus, near the end of the first century B.C.E. It therefore blends tradition, both Greek and Roman, with awareness of contemporary politics. Vergil knew well and drew upon the Homeric <em>Iliad </em>and <em>Odyssey</em>, as well as Greek myths such as that of Jason and the Argonauts (as recounted by Apollonius of Rhodes).</p>
+    </div>
+    
+ 
+  </div>
+  <!-- End main -->
+  <div class="clear"></div>
+  <div id="footer">
+    <img src="../images/uwaterloo.png" alt="" width="150" height="32" />
+  </div>
+</div>
+<!-- End wrapper -->
+
+</body>
+
+
+
+
+</html>
+

@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>Module 22</title>
+
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="../scripts/jquery-1.8.2.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../../fancyboxjquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$("a#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+		
+		});
+	</script>
+
+s
+</head>
+
+<body>
+<div id="wrapper"><!-- Begin wrapper -->
+  
+  <div id="header"><!-- Begin header --> 
+    <img src="../images/logo.png" alt="" width="545" height="150" />
+
+  </div>
+  <div id="main"><!-- Begin main -->
+    
+
+    <p id="module"><span>Module 22</span></p>
+ 
+        <h2 class="essential_element">Essential Element:  Part III</h2>
+    
+      <div class="content">
+        <h2 class="title">Dido and Aeneas&mdash;Tragic Love</h2>
+       
+          <p>Aeneas&rsquo;s meeting Dido, queen of Carthage, is a tragic love affair that has had an enormous impact on subsequent literature and art. A storm had scattered Aeneas&rsquo; fleet after they left Sicily and the survivors ended up in Carthage. Dido receives them with kindness. Aeneas tells her the story of his journey from Troy to Carthage which is how we as an audience hear of the story of Aeneas&rsquo; journey up until this point in the <em>Aeneid</em>. But Dido is to suffer greatly at the hands of Venus and Juno; they make her fall in love with Aeneas (here we can think of influence from the story of Jason and the Argonauts, in which Aphrodite and Hera are responsible for making Medea fall in love with Jason). Aeneas also loves her and would have stayed, but Mercury came to tell Aeneas <a rel="example_group" title="Peter Paul Rubens, Death of Dido. c. 1635-1638. Musee du Louvre, Paris, France. Erich Lessing Culture and Fine Arts / ART RESOURCE, N.Y.." a href="../images/module22/large/Image3.jpg"><img src="../images/module22/thumbs/image3_mod22.jpg" alt="" width="130" height="90" class="alignright" /></a>that he had to move on. When Aeneas leaves, Dido kills herself in despair. She has a pyre built, supposedly to burn all the gifts given to her by Aeneas but then as the hero departs she kills herself with a sword that Aeneas had given her. <strong>(see image 1)</strong> Before she does so, she curses Aeneas and his descendants in the following manner (<em>Aeneid </em>book 4):  <blockquote><em>&lsquo;Let there be no love between our peoples and no treaties. Arise from my dead bones, O my unknown avenger, and harry the race of Dardanus with fire and sword wherever they may settle, now and in the future, whenever our strength allows it. I pray that we may stand opposed, shore again shore, sea against sea and sword against sword. Let there be war between the nations and between their sons for ever.&rsquo;<a href="#_ftn1" name="_ftnref1" title="" id="_ftnref1"> </a></em>  </blockquote> 
+          <p>This is a clear post-eventum prophecy of the wars between the Romans and the Carthaginians: in the mythological time of the <em>Aeneid</em> this strife is in the future, but in Virgil&rsquo;s day war with the Carthaginians was a known historical reality.</p>
+      
+          </p>
+        <div>
+          <div id="ftn1"><br />
+          <a href="#_ftnref1" name="_ftn1" title="" id="_ftn1"> </a> Translation D. West, <em>The Aeneid </em>(2003). </div>
+        </div>
+      </div>
+    
+ 
+  </div>
+  <!-- End main -->
+  <div class="clear"></div>
+  <div id="footer">
+    <img src="../images/uwaterloo.png" alt="" width="150" height="32" />
+  </div>
+</div>
+<!-- End wrapper -->
+
+</body>
+
+
+
+
+</html>
+

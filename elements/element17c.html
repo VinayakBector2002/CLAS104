@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>Module 17</title>
+
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="../scripts/jquery-1.8.2.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../../fancyboxjquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$("a#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+		
+		});
+	</script>
+
+
+</head>
+
+<body>
+<div id="wrapper"><!-- Begin wrapper -->
+  
+  <div id="header"><!-- Begin header --> 
+    <img src="../images/logo.png" alt="" width="545" height="150" />
+
+  </div>
+  <div id="main"><!-- Begin main -->
+    
+
+    <p id="module"><span>Module 17</span></p>
+ 
+        <h2 class="essential_element">Essential Element:  Part III</h2>
+    
+      <div class="content">
+        <h2 class="title">Return Homer</h2>
+        <p>It is at this point that Odysseus travels on his raft to the Phaeacians and then home to <a id="various3" a href="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Ithaca+greece&amp;aq=&amp;sll=37.074628,22.430391&amp;sspn=0.050538,0.081711&amp;ie=UTF8&amp;hq=&amp;hnear=N%C3%ADsos+Ith%C3%A1ki&amp;t=m&amp;z=12&amp;iwloc=A&amp;output=embed">Ithaca</a>. When he arrives home he is disguised by Athena, dressed as a beggar. There are more than 100 suitors vying for the hand of Penelope, who spend the days feasting on Odysseus’ wealth. Penelope can be seen as a female counterpart to Odysseus, in that she is very clever and remains faithful to her husband (although for an interesting modern take on Penelope’s role in the myth, see Margaret Atwood’s <em>Penelopiad</em>). She puts the suitors off by promising to marry one of them once she has finished weaving a burial garment for Odysseus’ father Laertes. She weaves by day but undoes her work by night, until in the fourth year she is discovered by the treachery of one of her maids.</p>
+        <p> Odysseus eventually reveals himself to Penelope, but first speaks to her as a beggar in order to maintain his disguise and therefore an advantage against the suitors. Penelope reveals to the disguised Odysseus that she plans to give herself the next day to the suitor who can string Odysseus’ bow and shoot an arrow straight through 12 axe heads (i.e. the small hole in the axe head in which the wooden handle fits—a difficult shot to say the least). Odysseus attends this competition still in disguise. None of the suitors is successful, and Odysseus asks to try. He is mocked, but he does the task easily. He thus reveals himself and with the help of Telemachus kills all of the suitors. He forces the twelve servant women of Penelope to clean the hall and then hangs them in the courtyard. Penelope and Odysseus are reunited, when she tests his identity by questioning his knowledge of their unique marriage bed, one leg of which was made from a living olive tree. The <em>Odyssey </em>narrates the romance and tenderness of their first night together in twenty years, as the alternately make love and talk to each other.</p>
+        <p>          The brutality of Odysseus’ handling of the suitors and treacherous servant women is harshly juxtaposed at the end of this great journey with the romance of his reunification with Penelope, a reminder that the faithful Odysseus is a great warrior who has returned at long last from war and brought something of this to the domestic sphere. His heroism is multifaceted—he is a warrior, a clever man, a faithful husband, son, and father, an adventurer, but also a harsh exacter of revenge for his family. His adventures and heroism have had an immense impact on mythology up until the present day. </p>
+    </div>
+    
+ 
+  </div>
+  <!-- End main -->
+  <div class="clear"></div>
+  <div id="footer">
+    <img src="../images/uwaterloo.png" alt="" width="150" height="32" />
+  </div>
+</div>
+<!-- End wrapper -->
+
+</body>
+
+
+
+
+</html>
+

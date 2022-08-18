@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Module 08</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://learn.uwaterloo.ca/shared/uw_media/vendors/jquery/3.1.1/jquery-3.1.1.min.js"></script>
+  <script src="https://learn.uwaterloo.ca/shared/uw_media/vendors/angular/1.4.5/angular.min.js"></script>
+  <script src="https://learn.uwaterloo.ca/shared/uw_media/master/cel-template/1.1/js/syllabusapp.js"></script>
+  <link href="https://learn.uwaterloo.ca/shared/uw_media/vendors/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://learn.uwaterloo.ca/shared/uw_media/master/cel-template/1.1/css/style.css" rel="stylesheet">
+
+  <link href="../../css/style.css" rel="stylesheet" type="text/css" />
+  
+
+
+
+  <link rel="stylesheet" href="../../css/style_sidebar.css" type="text/css" media="screen" />
+  <!-- <script src="../../Scripts/swfobject_modified.js" type="text/javascript"></script> -->
+  
+
+  <style>
+  body {
+    font-size: 12px;
+  }
+  #main {
+    width: 850px;
+    margin: 0 auto;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: georgia, verdana, arial
+  }
+  h2, h3 {
+    border: none;
+    color: #333;
+    font-weight: 700;
+    
+  }
+
+  .timelineImage {
+    position: relative;
+    max-width: 800px;
+  }
+
+  .leftTimes {
+    text-align: right;
+    position: absolute;
+    font-size: 12px !important;
+  }
+
+  .bottomTimes {
+    position: absolute;
+    font-size: 12px !important;
+  }
+  .imageHover {
+    margin: 0 auto;
+    max-width: 160px;
+  }
+  .imageHover .imgHover {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .imageHover button {
+    background: #333;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6em;
+    margin: 5px 10px;
+  }
+
+  .hoverBox1,
+  .hoverBox2,
+  .hoverBox3 {
+    position: absolute;
+
+  }
+
+  button.live {
+    background-color: #aaa !important;
+    color: #333 !important;
+  }
+
+  
+
+  ul li {
+    background-position: left 9px;
+  }
+
+
+</style>
+</head>
+
+<body ng-app="syllabus" ng-controller="syllabusCtrl">
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-12">
+        <div id="header" style="float: none">
+          <img src="../../media/images/logo.png" alt="CLAS 104" width="545" height="150" />
+
+        </div>
+        <div id="main"><!-- Begin outer-space -->
+          <p id="module"><span>Module 08</span></p>
+          <h2 class="essential_element">Demeter&mdash;Agrarian Mother and her Festivals</h2>
+          <div class="content">
+            <div id="banner"></div>
+            <p><strong>Objectives: </strong></p>
+            <ul>
+              <li>Explore the nature and function of the goddess Demeter/Ceres and the myth of the abduction of her daughter Persephone/Proserpina.</li>
+            </ul>
+            <div class="timelineImage">
+
+              <img id="hoverBox0" src="../../media/images/timeline.png" width="100%" style="position: relative;" alt="Timeline from 6500 BC to 284 AD">
+              
+              <img id="hoverBox1" style="display: none;" src="../../media/images/tl-hhdemeter.png" width="100%" alt="Homeric Hymn to Demeter 600-550 BC">
+            </div>
+            
+            <div class="imageHover">
+
+              <button class="imgHover" id="hover1">1</button>
+
+            </div>
+            <div class="spacer"></div>
+            <p>We are going to look in detail at Demeter, a goddess who is connected in literature and religious worship with the fertility of crops and the underworld. In this way Demeter is connected strongly to the earth, even as she also has a place in the pantheon of Olympian gods.</p>
+            <p><strong>Essential Element: <a href="../../elements/element08a.html" title="Part I" target="_blank">Part I</a></p>
+            <p><strong>Essential Element: <a href="../../elements/element08b.html" title="Part II" target="_blank">Part II</a></p>
+            <h2 class="essential_element"></h2>
+            <!--END OF WHITESPACE -->
+            <div class="clear"></div>
+            <h3>Readings</h3>
+            <ul>
+              <li><em>Classical Mythology</em>, 10th ed. 339-358; 11th ed. 334-354</li>
+            </ul>
+            <h3>Activities and Assignments</h3>
+						<p>none.</p>
+						<p>&nbsp;</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script>
+
+    $(document).ready(function(){
+      var x = document.getElementById("hoverBox0");
+
+      $("#hover1").click(function(){
+        $("#hover1").addClass('live');
+
+        $("#hoverBox1").show();
+
+        $("#hoverBox0").hide();
+
+
+      });
+
+    });
+  </script>
+
+</body>
+</html>

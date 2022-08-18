@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>Module 15</title>
+
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="../scripts/jquery-1.8.2.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../../fancyboxjquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$("a#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+		
+		});
+	</script>
+
+
+</head>
+
+<body>
+<div id="wrapper"><!-- Begin wrapper -->
+<div id="header"><!-- Begin header --> <img src="../images/logo.png" alt="" height="150" width="545" /></div>
+<div id="main"><!-- Begin main -->
+<p id="module"><span>Module 15</span></p>
+<h2 class="essential_element">Essential Element: Part III<br /><br />Thyestes and Atreus</h2>
+<p></p>
+<div class="content">
+<p>Thyestes therefore first becomes king at Mycenae, until Atreus later returns&nbsp; and banishes Thyestes. Atreus also takes further revenge. He pretends at first to be reconciled with Thyestes and invites him back to Mycenae for a banquet in celebration. This, however, is a ruse. Atreus kills Thyestes&rsquo; sons (with the exception of one son, Aegisthus) and feeds them to him. Thyestes does not notice the gruesome nature of the banquet until he has eaten,&nbsp; and curses Atreus (a natural reaction, surely!). Once again, we see the motif of cannibalism as well as the curse placed upon the family.</p>
+</div>
+<!--END OF WHITESPACE -->
+<div class="clear"></div>
+</div>
+<!-- End main -->
+<div class="clear"></div>
+<div id="footer"><img src="../images/uwaterloo.png" alt="" height="32" width="150" /></div>
+</div>
+<!-- End wrapper -->
+</body>
+
+
+
+
+</html>

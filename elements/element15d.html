@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>Module 15</title>
+
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="../scripts/jquery-1.8.2.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../../fancyboxjquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$("a#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+		
+		});
+	</script>
+
+
+</head>
+
+<body>
+<div id="wrapper"><!-- Begin wrapper -->
+<div id="header"><!-- Begin header --> <img src="../images/logo.png" alt="" height="150" width="545" /></div>
+<div id="main"><!-- Begin main -->
+<p id="module"><span>Module 15</span></p>
+<h2 class="essential_element">Essential Element: Part IV</h2>
+<div class="content">
+<h2 class="title">Agamemnon and the Trojan War</h2>
+<p>The above myths bring us to the generation of Agamemnon, who is the son of Atreus. Agamemnon becomes king of Mycenae and is married to Clytemnestra, with whom he has three children: two daughters, Iphigenia and Electra, and one son, Orestes. The curse on the family of Atreus continues also in this generation. Agamemnon and the Greeks go to war in order to revenge the fact that Helen, the wife of Agamemnon&rsquo;s brother Menelaus, has been taken away by Paris to Troy. The troops gather in the bay at <a id="various3" a="" href="https://maps.google.ca/maps?q=Aulis+greece&amp;oe=utf-8&amp;aq=t&amp;client=firefox-a&amp;ie=UTF8&amp;hl=en&amp;hq=&amp;hnear=Avlida,+Greece&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed">Aulis</a> and the fleet is ready to sail, but the winds are too strong for the fleet to go anywhere. Agamemnon is informed by a seer that the winds are being caused by Artemis, because two of Agamemnon's hawks attacked and ate a pregnant hare.&nbsp; In order to appease the goddess, Agamemon will have to make another sacrifice, his own daughter Iphigenia. This is a difficult decision for the head-strong Agamemnon: does he sacrifice his daughter for the army and the sake of revenge? In the end he chooses to kill Iphigenia, the fleet set sail, and they take their revenge on Troy. For this sacrifice of his daughter, Clytemnestra is (understandably) furious with her husband.</p>
+</div>
+<!--END OF WHITESPACE -->
+<div class="clear"></div>
+</div>
+<!-- End main -->
+<div class="clear"></div>
+<div id="footer"><img src="../images/uwaterloo.png" alt="" height="32" width="150" /></div>
+</div>
+<!-- End wrapper -->
+</body>
+
+
+
+
+</html>

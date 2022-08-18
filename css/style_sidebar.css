@@ -1,0 +1,72 @@
+/* Wrapper & Container */
+#wrapper {
+	width:750px;
+	margin:0 auto;
+	padding-left: 0px;
+}
+/* Header */
+#header {
+width: 750px;
+float: left;
+}
+/* Content */
+#main {
+	width:750px;
+
+	border:1px solid #ccc;
+	padding-bottom:17px;
+	margin-bottom:20px;
+	background: #fff;
+}
+
+#banner {
+
+}
+
+
+/* Sidebar */
+
+
+#right-sidebar {
+	width:175px;
+	padding:45px 10px 0 20px;
+	float:right;
+}
+#right-sidebar h3 {
+	font-variant:small-caps;
+	font-size:1.2em;
+	font-weight:normal;
+	color:#999;
+	padding-left:15px;
+	margin-bottom:10px;
+	border-bottom:1px dotted #ccc;
+	letter-spacing:3px;
+}
+#right-sidebar ul li {
+	background:transparent url(../images/bullet.png) no-repeat left 5px;
+	padding-left:15px;
+	margin-bottom:5px;
+}
+.sidebar {
+	margin-bottom:30px;
+}
+/* Footer */
+#footer {
+	padding-bottom:20px;
+	width: 640px;
+}
+/* Images */
+.alignleft {
+	float:left;
+	margin:0 20px 10px 0;
+}
+.alignright {
+	float:right;
+	margin:0 0 10px 20px;
+}
+/* Positioning */
+.clear {
+	clear:both;
+}
+
+/* End Of File */

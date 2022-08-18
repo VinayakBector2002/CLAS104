@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>Module 15</title>
+
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="../scripts/jquery-1.8.2.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../../fancyboxjquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$("a#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+		
+		});
+	</script>
+
+
+</head>
+
+<body>
+<div id="wrapper"><!-- Begin wrapper -->
+  
+  <div id="header"><!-- Begin header --> 
+    <img src="../images/logo.png" alt="" width="545" height="150" />
+
+  </div>
+  <div id="main"><!-- Begin main -->
+    
+
+    <p id="module"><span>Module 15</span></p>
+ 
+        <h2 class="essential_element">Essential Element:  Part I</h2>
+    
+      <div class="content">
+        <h2 class="title">Pelops</h2>
+        <p>   The mythological family history begins with the ancestors of Atreus Tantalus and Pelops. Pelops is the son of Tantalus and famously cooked by his father.  The story goes that Tantalus invites the gods to a banquet and prepares his son as a dish. The gods understand the deception, except for Demeter, who eats a piece of his shoulder (her revulsion afterward can be connected to her role as a civilizing goddess, who is also linked in some myths and religious texts with bringing an end to cannibalism amongst humans). Pelops is eventually restored to life, his shoulder replaced by a marble shoulder, and in some versions Pelops is taken away by Poseidon, as his lover. Tantalus, as we have already encountered in the Essential Element on the underworld, is given an eternal punishment in the afterlife for deceiving them. This myth on the one hand links the house of Atreus strongly to the gods, and on the other hand exemplifies the hubris and curse that will follow the family throughout its generations.</p>
+        <p> After he is restored to life, Pelops leaves Asia Minor to go to <a id="various3" a href="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Elis,+Amaliada,+Greece&amp;aq=1&amp;oq=Elis,+G&amp;sll=43.139307,-80.397355&amp;sspn=1.338782,2.738342&amp;ie=UTF8&amp;hq=Elis,&amp;hnear=Amaliada,+Ilia,+Greece&amp;t=m&amp;cid=398145793424847053&amp;z=13&amp;iwloc=A&amp;output=embed&quot;">Elis</a> in the Peloponnese (named after Pelops) in order to win the hand of Hippodamia, the daughter of king Oenomaus. In order to win Hippodamia, he has to defeat the king in a chariot race. Thirteen suitors fail before he wins, <a href="../images/module15/large/Image1.jpg" title="Near the Meidias Painter, c. 410 B.C.E. Museo Archeologico Statale G. Clnio Mecenate (Arezzo, Italy). &copy; 2006 SCALA, Florence / ART RESOURCE, N.Y.." class="alignright" rel="example_group" a><img src="../images/module15/thumbs/image1_mod15.jpg" alt="" width="130" height="90" /></a>and when the king caught a suitor, he killed him. In order to win, Pelops is said in different versions of the myth either to have had help from Poseidon, or to have bribed Oenomaus’charioteer Myrtilus to take the linchpins from the wheels of the Oenomaus’ chariot. King Oenomaus crashes and dies during the pursuit (<strong>see image 1</strong>).</p>
+    </div>
+    
+
+    <!--END OF WHITESPACE -->
+    <div class="clear"></div>
+  </div>
+  <!-- End main -->
+  <div class="clear"></div>
+  <div id="footer">
+    <img src="../images/uwaterloo.png" alt="" width="150" height="32" />
+  </div>
+</div>
+<!-- End wrapper -->
+
+</body>
+
+
+
+
+</html>
+

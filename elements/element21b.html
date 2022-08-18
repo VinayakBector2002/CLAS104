@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>Module 21</title>
+
+	<link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="../scripts/jquery-1.8.2.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../../fancyboxjquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+	
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$("a#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+		
+		});
+	</script>
+
+s
+</head>
+
+<body>
+<div id="wrapper"><!-- Begin wrapper -->
+  
+  <div id="header"><!-- Begin header --> 
+    <img src="../images/logo.png" alt="" width="545" height="150" />
+
+  </div>
+  <div id="main"><!-- Begin main -->
+    
+
+    <p id="module"><span>Module 21</span></p>
+ 
+        <h2 class="essential_element">Essential Element:  Part II</h2>
+    
+      <div class="content">
+        <h2 class="title">Phrixus</h2>
+        <p>The story of the golden fleece begins with Phrixus. Phrixus is the son of the mortal king Athamas and the divine Nephele (cloud). After he and his sister Helle were born, Nephele returned to the sky and Athamas married Ino the daughter of Cadmus (the king of Thebes, whom we have already encountered in myth). Ino tried to destroy her stepchildren. In a plot against them she convinces the women of Boeotia to dry the seed so that grain would not grow. Athamas sends an envoy to Delphi to seek advice but Ino intercepts them and gives Athamas the false oracle that he must sacrifice his son Phrixus to end the plague. Athamas was willing to sacrifice his son, but when he tried to do so, Nephele snatched her children up and put them on the back of a flying ram with a golden fleece, a gift of Hermes. The ram flew eastward, toward the black sea. As it passed over the <a id="various3" a href="https://maps.google.ca/maps?q=The+Dardanelles&amp;oe=utf-8&amp;aq=t&amp;client=firefox-a&amp;channel=rcs&amp;ie=UTF8&amp;hl=en&amp;hq=&amp;hnear=Dardanelles&amp;t=m&amp;z=9&amp;iwloc=A&amp;output=embed">Hellespont</a>, Helle fell off into the sea and drowned. Hence the name &lsquo;Hellespont&rsquo;. Phrixus went all the way to Colchis with the ram, sacrificed it to Zeus and gave it to the king of Colchis Aeetes. The king hung it up on a tree in a grove of Ares, where it was guarded by a watchful serpent (as we have seen, a serpent is a frequent guard for special or magical items).</p>
+</div>
+    
+ 
+  </div>
+  <!-- End main -->
+  <div class="clear"></div>
+  <div id="footer">
+    <img src="../images/uwaterloo.png" alt="" width="150" height="32" />
+  </div>
+</div>
+<!-- End wrapper -->
+
+</body>
+
+
+
+
+</html>
+

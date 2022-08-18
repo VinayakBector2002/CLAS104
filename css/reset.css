@@ -1,0 +1,19 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+/* Reset the headers  */
+h1,h2,h3,h4{font-size:100%;}
+
+/* Removes list style */
+ol,ul,li{list-style:none;}
+
+/* Removes border from image */
+fieldset,img{
+}
+
+
+/* Remove horizontal ruler */
+hr{display:none;}
